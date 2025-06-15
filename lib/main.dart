@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sarpras_management/home-page.dart';
 import 'package:sarpras_management/home.dart';
 import 'package:sarpras_management/login.dart';
 
 
-void main() {
+void main() async {
+  // WidgetsFlutterBinding.ensureInitialized();
+  //  await initializeDateFormatting('id_ID', '');
   runApp(MyApp());
 }
 

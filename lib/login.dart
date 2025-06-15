@@ -200,7 +200,7 @@ class _LoginPageState extends State<LoginPage> {
                             padding: EdgeInsets.only(top: 30, bottom: 30),
                             child: SizedBox(
                               width: double
-                                  .infinity, // Ini yang bikin tombol selebar parent
+                                  .infinity, 
                               child: ElevatedButton(
                                 onPressed: () {
                                   if (_formKey.currentState!.validate()) {

@@ -77,18 +77,6 @@ class _HoverCardState extends State<HoverCard> {
         fontWeight: FontWeight.w500,
       ),
     ),
-    Expanded(  // <-- Ini ganti Spacer agar flexible dorong konten bawah
-      child: Align(
-        alignment: Alignment.bottomRight,
-        child: Text(
-          "Progress",
-          style: GoogleFonts.poppins(
-            color: isHovered ? Colors.white54 : Colors.black45,
-            fontSize: 12,
-          ),
-        ),
-      ),
-    ),
   ],
 ),
 
